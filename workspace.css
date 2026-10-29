@@ -1,0 +1,72 @@
+.ferma-logo-frame,.pub-logo .ferma-logo-frame,.brand .ferma-logo-frame{width:155px;height:73px;overflow:visible}
+.ferma-logo-frame img,.pub-logo .ferma-logo-frame img,.brand .ferma-logo-frame img{position:static;display:block;width:100%;height:100%;max-width:100%;object-fit:contain;mix-blend-mode:normal}
+.brand .ferma-logo-frame{width:148px;height:70px}
+.brand{padding-bottom:20px}
+.brand .brand-sub{padding-left:3px;margin-top:0}
+.auth-description{margin-bottom:28px}
+
+body:not(.visitor-page){--green:#28613d;--green-dark:#1e4d30;--pale:#e9f2e9;--bg:#f4f7f3;--line:#dce5db;--muted:#536858}
+body:not(.visitor-page) .topbar{position:sticky;top:0;z-index:20;background:#fff;min-height:72px;height:auto;padding-block:12px}
+body:not(.visitor-page) .top-actions{gap:12px}
+body:not(.visitor-page) .top-actions select{border:1px solid #d1dfce;background:#f4f8f1;border-radius:7px;min-height:42px;padding:8px 10px;cursor:pointer}
+body:not(.visitor-page) .nav-link{border:1px solid transparent;transition:background-color .18s,color .18s,transform .18s}
+body:not(.visitor-page) .nav-link:hover{background:#edf4e9;color:#1e4d30;transform:translateX(2px)}
+body:not(.visitor-page) .nav-link.active{color:#fff;background:#28613d;border-color:#28613d}
+body:not(.visitor-page) .nav-link.active .nav-count{background:#fff;color:#7a5010}
+body:not(.visitor-page) .btn,body:not(.visitor-page) .link{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:10px 16px;border:1px solid #c6d9be;border-radius:7px;background:#edf4e9;color:#244e2e;text-decoration:none;font-size:13px;font-weight:600;line-height:1.35;transition:background-color .18s,border-color .18s,box-shadow .18s,transform .18s}
+body:not(.visitor-page) .btn:hover,body:not(.visitor-page) .link:hover{background:#deebd8;border-color:#9db88e;box-shadow:0 3px 7px #244e2e12;transform:translateY(-2px)}
+body:not(.visitor-page) .btn:active,body:not(.visitor-page) .link:active{transform:translateY(0);box-shadow:none}
+body:not(.visitor-page) .btn.primary{background:#28613d;border-color:#28613d;color:#fff}
+body:not(.visitor-page) .btn.primary:hover{background:#1e4d30;border-color:#1e4d30}
+body:not(.visitor-page) .btn.danger{background:#fff1ed;border-color:#e6c5ba;color:#8b392c}
+body:not(.visitor-page) .btn.danger:hover{background:#f7e1d9;border-color:#cc9d8b}
+body:not(.visitor-page) .btn.logout-button{background:#28613d;border-color:#28613d;color:#fff;padding:10px 14px;min-height:42px}
+body:not(.visitor-page) .btn.logout-button:hover{background:#1e4d30}
+body:not(.visitor-page) .logout-button .icon{width:17px;height:17px}
+body:not(.visitor-page) .icon-button{background:#f4f8f1;border-color:#d1dfce;transition:background-color .18s,transform .18s}
+body:not(.visitor-page) .icon-button:hover{background:#e3eddd;transform:translateY(-1px)}
+body:not(.visitor-page) .tabs{gap:7px;border:0;flex-wrap:wrap}
+body:not(.visitor-page) .tab{border:1px solid #d6e2d1;border-radius:7px;padding:10px 14px;min-height:42px;background:#f3f7ef;color:#4f6551;transition:background-color .18s,color .18s}
+body:not(.visitor-page) .tab:hover{background:#e5efdf;color:#244e2e}
+body:not(.visitor-page) .tab.selected{background:#28613d;border-color:#28613d;color:#fff;box-shadow:none}
+body:not(.visitor-page) .segmented{padding:3px;border-radius:7px;background:#edf3e9;border:1px solid #d5e1cf}
+body:not(.visitor-page) .segmented button{border-radius:4px;min-height:36px;padding:7px 9px;color:#4f6551;transition:background-color .18s,color .18s}
+body:not(.visitor-page) .segmented button:hover{background:#dfead7}
+body:not(.visitor-page) .segmented button.selected{background:#fff;color:#244e2e;box-shadow:0 1px 3px #284d2b16}
+body:not(.visitor-page) .chart-controls{flex-wrap:wrap;gap:13px}
+body:not(.visitor-page) .case-button{border-radius:7px;background:#edf4e9;border-color:#c6d9be;transition:background-color .18s,transform .18s}
+body:not(.visitor-page) .case-button:hover{transform:translateY(-1px);background:#deebd8}
+body:not(.visitor-page) .case-button.selected{background:#28613d;color:#fff;border-color:#28613d}
+body:not(.visitor-page) .decision-board{border-radius:10px}
+body:not(.visitor-page) .decision-aside{background:#edf4e9}
+body:not(.visitor-page) .panel,body:not(.visitor-page) .process-aside{border-radius:10px}
+body:not(.visitor-page) .decision-main h2{font-size:30px;margin:11px 0 9px}
+body:not(.visitor-page) .work-context{gap:12px 24px;margin-top:2px;margin-bottom:22px}
+body:not(.visitor-page) .table-wrap td:last-child{white-space:nowrap}
+body:not(.visitor-page) .telemetry{padding-top:16px;padding-bottom:16px}
+body:not(.visitor-page) .telemetry summary{width:fit-content;min-height:36px;display:flex;align-items:center;gap:9px;border-radius:5px;padding:7px 10px;background:#edf4e9;color:#244e2e}
+body:not(.visitor-page) .telemetry summary::before{content:'+';font-size:19px;line-height:1}
+body:not(.visitor-page) .telemetry[open] summary::before{content:'−'}
+body:not(.visitor-page) .page-footer{margin-top:30px}
+body:not(.visitor-page) .case-explanation>.link{display:inline-flex;border:1px solid #c6d9be;padding:10px 16px}
+@media(max-width:720px){
+ .pub-logo .ferma-logo-frame{width:128px;height:60px}
+ .brand .ferma-logo-frame{width:148px;height:70px}
+ body:not(.visitor-page) .topbar{padding:10px 16px;min-height:66px}
+ body:not(.visitor-page) .breadcrumb strong{display:none}
+ body:not(.visitor-page) .top-actions{gap:8px}
+ body:not(.visitor-page) .top-actions label>.icon{display:none}
+ body:not(.visitor-page) .top-actions select{font-size:12px;max-width:125px}
+ body:not(.visitor-page) .btn.logout-button{padding:10px 12px;font-size:12px}
+ body:not(.visitor-page) .decision-main h2{font-size:27px}
+ body:not(.visitor-page) .decision-actions .btn{white-space:normal}
+ body:not(.visitor-page) .work-context{gap:9px 16px;font-size:12px}
+ body:not(.visitor-page) .chart-controls{align-items:flex-start}
+ body:not(.visitor-page) .tab{padding:9px 13px;font-size:12px}
+ body:not(.visitor-page) .tabs{gap:6px}
+ body:not(.visitor-page) .filters{flex-wrap:wrap}
+ body:not(.visitor-page) .filters .input{width:100%;min-width:0}
+}
+@media(max-width:480px){body:not(.visitor-page) .top-actions>.icon-button{display:none}}
+@media(max-width:365px){.pub-logo .ferma-logo-frame{width:112px;height:53px}}
+@media(prefers-reduced-motion:reduce){body:not(.visitor-page) *{transition:none!important;animation:none!important}}
